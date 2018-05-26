@@ -8,7 +8,7 @@ public class Consumer implements Runnable {
     }
 
     public void run() {
-        // adding my great code
+        // adding my great code235325
         Random random = new Random();
         for (String message = drop.take();
              ! message.equals("DONE");
@@ -17,8 +17,8 @@ public class Consumer implements Runnable {
             try {
                 Thread.sleep(random.nextInt(5000));
             } catch (InterruptedException e) {}
-            // adding my great code
+            // adding my great code325325235253253235253253532352353
         }
-        // adding my great code
+        // adding my great code235235
     }
 }
